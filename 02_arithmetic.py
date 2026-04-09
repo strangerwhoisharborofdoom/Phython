@@ -1,4 +1,5 @@
 # Program 2: Area, Simple Interest, and Basic Arithmetic Expressions
+import math
 
 # --- Area calculations ---
 print("=== Area Calculations ===")
@@ -9,8 +10,7 @@ rectangle_area = length * width
 print(f"Area of rectangle = {rectangle_area:.2f}")
 
 radius = float(input("Enter radius of circle: "))
-PI = 3.14159
-circle_area = PI * radius * radius
+circle_area = math.pi * radius * radius
 print(f"Area of circle = {circle_area:.2f}")
 
 base = float(input("Enter base of triangle: "))
