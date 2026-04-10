@@ -1,0 +1,16 @@
+# Program to demonstrate input() and formatted print()
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("\n--- User Details ---")
+print("Name:", name)
+print("Age:", age)
+
+# Output :
+Enter your name: Pavan
+Enter your age: 18
+
+--- User Details ---
+Name: Pavan
+Age: 18
