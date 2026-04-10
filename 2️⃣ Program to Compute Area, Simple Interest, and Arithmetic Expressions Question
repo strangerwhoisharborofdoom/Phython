@@ -1,0 +1,46 @@
+Write a program to compute:
+
+Area of a circle
+Simple Interest
+Basic arithmetic operations
+
+Program
+
+# Area of circle
+radius = float(input("Enter radius of circle: "))
+area = 3.14 * radius * radius
+print("Area of Circle =", area)
+
+# Simple Interest
+p = float(input("\nEnter Principal: "))
+r = float(input("Enter Rate: "))
+t = float(input("Enter Time: "))
+
+si = (p * r * t) / 100
+print("Simple Interest =", si)
+
+# Arithmetic operations
+a = int(input("\nEnter first number: "))
+b = int(input("Enter second number: "))
+
+print("Addition =", a + b)
+print("Subtraction =", a - b)
+print("Multiplication =", a * b)
+print("Division =", a / b)
+
+Output
+
+Enter radius of circle: 5
+Area of Circle = 78.5
+
+Enter Principal: 1000
+Enter Rate: 5
+Enter Time: 2
+Simple Interest = 100.0
+
+Enter first number: 10
+Enter second number: 5
+Addition = 15
+Subtraction = 5
+Multiplication = 50
+Division = 2.0
