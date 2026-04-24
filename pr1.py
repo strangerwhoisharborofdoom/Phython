@@ -1,0 +1,8 @@
+name = input("enter your name :")
+age = int(input("enter your age :"))
+price = float(input("enter the price :"))
+print(f"sale today-%50 off")
+print(f"Name : {name}")
+print(f"Age : {age}")
+print(f"price :{price}")
+print(f"price after offer :{price/2}")
